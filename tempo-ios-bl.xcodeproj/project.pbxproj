@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D10BE462BFC4776008F6EBA /* tempo-ios-bl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tempo-ios-bl.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D10BE462BFC4776008F6EBA /* TestUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D10BE492BFC4776008F6EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D10BE4B2BFC4776008F6EBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0D10BE4D2BFC4776008F6EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		0D10BE3D2BFC4776008F6EBA = {
 			isa = PBXGroup;
 			children = (
-				0D10BE482BFC4776008F6EBA /* tempo-ios-bl */,
+				0D10BE482BFC4776008F6EBA /* TestUI */,
 				0D10BE472BFC4776008F6EBA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		0D10BE472BFC4776008F6EBA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0D10BE462BFC4776008F6EBA /* tempo-ios-bl.app */,
+				0D10BE462BFC4776008F6EBA /* TestUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0D10BE482BFC4776008F6EBA /* tempo-ios-bl */ = {
+		0D10BE482BFC4776008F6EBA /* TestUI */ = {
 			isa = PBXGroup;
 			children = (
 				0D10BE492BFC4776008F6EBA /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				0D10BE542BFC4777008F6EBA /* LaunchScreen.storyboard */,
 				0D10BE572BFC4777008F6EBA /* Info.plist */,
 			);
-			path = "tempo-ios-bl";
+			path = TestUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0D10BE452BFC4776008F6EBA /* tempo-ios-bl */ = {
+		0D10BE452BFC4776008F6EBA /* TestUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0D10BE5A2BFC4777008F6EBA /* Build configuration list for PBXNativeTarget "tempo-ios-bl" */;
+			buildConfigurationList = 0D10BE5A2BFC4777008F6EBA /* Build configuration list for PBXNativeTarget "TestUI" */;
 			buildPhases = (
 				0D10BE422BFC4776008F6EBA /* Sources */,
 				0D10BE432BFC4776008F6EBA /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "tempo-ios-bl";
+			name = TestUI;
 			productName = "tempo-ios-bl";
-			productReference = 0D10BE462BFC4776008F6EBA /* tempo-ios-bl.app */;
+			productReference = 0D10BE462BFC4776008F6EBA /* TestUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0D10BE452BFC4776008F6EBA /* tempo-ios-bl */,
+				0D10BE452BFC4776008F6EBA /* TestUI */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GULURF5GWL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tempo-ios-bl/Info.plist";
+				INFOPLIST_FILE = TestUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GULURF5GWL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "tempo-ios-bl/Info.plist";
+				INFOPLIST_FILE = TestUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0D10BE5A2BFC4777008F6EBA /* Build configuration list for PBXNativeTarget "tempo-ios-bl" */ = {
+		0D10BE5A2BFC4777008F6EBA /* Build configuration list for PBXNativeTarget "TestUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0D10BE5B2BFC4777008F6EBA /* Debug */,

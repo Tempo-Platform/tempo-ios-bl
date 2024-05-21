@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F5A7E980D85D3A246E61476A6FB9C32 /* tempo-ios-bl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CECD7AE64B6EF83F410FAB55C3AA61 /* tempo-ios-bl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DA2B26C1007B54C21F923F297112C7E /* BridgeRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7C3CD9AFBFD8737E74552CF9267AEC /* BridgeRef.swift */; };
+		0F5A7E980D85D3A246E61476A6FB9C32 /* tempo-ios-bl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3285CA9EB28DE8E70F2529B34BBBE778 /* tempo-ios-bl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1BC519A5C2EAC6F8FECDE24439C75E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6400FACE2D4E56DF58B37C794A482FD /* Profile.swift */; };
 		3EC24126CC802FC2EDA3FAAA06037EFA /* tempo-ios-bl-tempo-ios-bl in Resources */ = {isa = PBXBuildFile; fileRef = AF03BF5DE111335FE911E2119259E55C /* tempo-ios-bl-tempo-ios-bl */; };
-		3ED0649CB246BF6FDDD1B4049F7C3870 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */; };
-		44737D9CB465EAD85C598994B6510219 /* BridgeRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A25D230987C50ED9BC724C3E827BEDB /* BridgeRef.swift */; };
+		3ED0649CB246BF6FDDD1B4049F7C3870 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 54B25BE3AE1B263F8EE85ADED83357E8 /* PrivacyInfo.xcprivacy */; };
+		4C1450F4C17805A32FD416D9DED8397E /* MIT-LICENSE.txt in Sources */ = {isa = PBXBuildFile; fileRef = C8A0FE77E9371406576F2830F4647694 /* MIT-LICENSE.txt */; };
+		59169EDC8BF757F1C640FA150832C7FF /* UnityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C01F0DF94646E648F8CD21E8B82B6E /* UnityBridge.swift */; };
+		5BCA5F943849FE5456FE19E3AB235ED0 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B33D1796E64BA9412ED169C28FDB400 /* CountryCode.swift */; };
 		5F89F850956F650F1FAD9948187A38F0 /* Pods-TestUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C856ECA35EE57B53F70C7166D1CF473 /* Pods-TestUI-dummy.m */; };
-		5FBAD8D420A1EB25D668596F093D7E92 /* tempo_ios2unity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1B421E1259FC0202D94015F50FB9BE /* tempo_ios2unity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A58F22E178EEF9BA0FC456CB36186F7 /* tempo-ios-bl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF0F65D578478833616A153BDFF1C1 /* tempo-ios-bl-dummy.m */; };
-		8B9BA93AC4319B1B0FFA58FBF474CBE0 /* UnityBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9E25A5916BE40A2C0C2F4E7CBB7CF /* UnityBridgeController.swift */; };
+		5FBAD8D420A1EB25D668596F093D7E92 /* tempo_ios2unity.h in Headers */ = {isa = PBXBuildFile; fileRef = AD48355B1AD7D692402CDDDB70BCB820 /* tempo_ios2unity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F40A2B069D4559D81BB58B41ACA1A2C /* UnityBridgeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD01358FBC5D7D529BF39CFE35D65050 /* UnityBridgeController.swift */; };
+		8868ED2DB447501113DFB91F8C8F657B /* tempo-ios-bl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB48C24CB2F7E22A77DA19AB977FFF /* tempo-ios-bl-dummy.m */; };
 		AFBD6D64731526A34DB04B70A4B372B8 /* Pods-TestUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DA7E75A3BFB80CCC12050F910F7043 /* Pods-TestUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3A49F8E11B95381D0CF553E2021C253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B5533634107CB4286E69A0404931DAF4 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */; };
-		B960EA4C5918F7296563BB2A14DB5BAC /* LICENCE.txt in Sources */ = {isa = PBXBuildFile; fileRef = 97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */; };
-		BE84FB3CB1D174B62547FD60017ADF81 /* CountryCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42FCA8DD14F3B3AD321A41190DD2A5 /* CountryCode.swift */; };
-		D6F1EC65E7FB9EEC348C95EA0E15E3C3 /* UnityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB118FF478122F5CDD29F3CA7ECE3E23 /* UnityBridge.swift */; };
+		E483918AD5CE3B73267D3AF4BFFC5469 /* BridgeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF4D6C969DA82F429E68DA46412DA6 /* BridgeUtils.swift */; };
 		F23EA6BD05AF40B876D8AE0AD21EC0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FCA52644E5C4798AD861487152FCF22B /* BridgeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF94023F6C200C205113685453D7BB6 /* BridgeUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,37 +44,37 @@
 
 /* Begin PBXFileReference section */
 		00DA7E75A3BFB80CCC12050F910F7043 /* Pods-TestUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestUI-umbrella.h"; sourceTree = "<group>"; };
-		19B9E25A5916BE40A2C0C2F4E7CBB7CF /* UnityBridgeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnityBridgeController.swift; path = "tempo-ios-bl/UnityBridgeController.swift"; sourceTree = "<group>"; };
-		1A25D230987C50ED9BC724C3E827BEDB /* BridgeRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BridgeRef.swift; path = "tempo-ios-bl/BridgeRef.swift"; sourceTree = "<group>"; };
-		1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = "tempo-ios-bl/Profile.swift"; sourceTree = "<group>"; };
-		20CECD7AE64B6EF83F410FAB55C3AA61 /* tempo-ios-bl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tempo-ios-bl-umbrella.h"; sourceTree = "<group>"; };
-		23E13CFADEBCD59635C4F0B661742073 /* tempo-ios-bl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.debug.xcconfig"; sourceTree = "<group>"; };
-		2AC0409E19528289DF3EB6D62792D578 /* tempo-ios-bl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "tempo-ios-bl.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07C01F0DF94646E648F8CD21E8B82B6E /* UnityBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnityBridge.swift; path = "tempo-ios-bl/UnityBridge.swift"; sourceTree = "<group>"; };
 		2DB77D2C1E9B9D2F07B410F826B6F0EE /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
 		2F1B9FFB69FE10A4A19D4DEC55052E1D /* Pods-TestUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestUI-frameworks.sh"; sourceTree = "<group>"; };
+		3285CA9EB28DE8E70F2529B34BBBE778 /* tempo-ios-bl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tempo-ios-bl-umbrella.h"; sourceTree = "<group>"; };
+		36C7EB213784F8CF103BF85806F8AC56 /* ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist"; sourceTree = "<group>"; };
 		3C856ECA35EE57B53F70C7166D1CF473 /* Pods-TestUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestUI-dummy.m"; sourceTree = "<group>"; };
 		3C93187A670DA2D891A012F856FB88E7 /* Pods-TestUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestUI.modulemap"; sourceTree = "<group>"; };
-		5E2C66C5B4F96C9D2F7C8E9B472D33CB /* tempo-ios-bl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tempo-ios-bl-Info.plist"; sourceTree = "<group>"; };
-		60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "tempo-ios-bl/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		54B25BE3AE1B263F8EE85ADED83357E8 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "tempo-ios-bl/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		65EB788EF955ED149FB018D3E8FC9681 /* tempo-ios-bl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "tempo-ios-bl.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7280DBB4C6091653C065B6ABD26CE69D /* tempo-ios-bl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B973220C4053B61301430C70A2DD04 /* Pods-TestUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		742DF8C9516869071B2A5C9865AAA4E7 /* Pods-TestUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		8184269E1FCB236983C8E4D284B02F22 /* Pods-TestUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUI-Info.plist"; sourceTree = "<group>"; };
-		8B1B421E1259FC0202D94015F50FB9BE /* tempo_ios2unity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tempo_ios2unity.h; path = "tempo-ios-bl/tempo_ios2unity.h"; sourceTree = "<group>"; };
-		9312A0489B95091A3173DDDFB461E8D3 /* tempo-ios-bl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.release.xcconfig"; sourceTree = "<group>"; };
+		81EDE9BF1C4CB2C9EB791E9DC743D8B5 /* tempo-ios-bl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tempo-ios-bl-prefix.pch"; sourceTree = "<group>"; };
+		8453EF8BB32212DF5B180F30E3235101 /* tempo-ios-bl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tempo-ios-bl-Info.plist"; sourceTree = "<group>"; };
 		95C7622F85596CB9351758AEF624C648 /* Pods-TestUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestUI"; path = Pods_TestUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENCE.txt; path = "tempo-ios-bl/LICENCE.txt"; sourceTree = "<group>"; };
-		9CDF0F65D578478833616A153BDFF1C1 /* tempo-ios-bl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tempo-ios-bl-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B33D1796E64BA9412ED169C28FDB400 /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = "tempo-ios-bl/CountryCode.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2598DD6C48013CBF8A881678B0C0784 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
-		AE9C4C2A04DD23EF914B53DF21D2D433 /* tempo-ios-bl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "tempo-ios-bl.modulemap"; sourceTree = "<group>"; };
+		AD01358FBC5D7D529BF39CFE35D65050 /* UnityBridgeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnityBridgeController.swift; path = "tempo-ios-bl/UnityBridgeController.swift"; sourceTree = "<group>"; };
+		AD48355B1AD7D692402CDDDB70BCB820 /* tempo_ios2unity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tempo_ios2unity.h; path = "tempo-ios-bl/tempo_ios2unity.h"; sourceTree = "<group>"; };
 		AF03BF5DE111335FE911E2119259E55C /* tempo-ios-bl-tempo-ios-bl */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "tempo-ios-bl-tempo-ios-bl"; path = "tempo-ios-bl.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6B7A89F9BB4553BB8BD1401E52549B7 /* ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist"; sourceTree = "<group>"; };
-		DE005E9D3B74D3F6E44E0CF06AFAA843 /* tempo-ios-bl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tempo-ios-bl-prefix.pch"; sourceTree = "<group>"; };
+		AF7C3CD9AFBFD8737E74552CF9267AEC /* BridgeRef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BridgeRef.swift; path = "tempo-ios-bl/BridgeRef.swift"; sourceTree = "<group>"; };
+		C6CB48C24CB2F7E22A77DA19AB977FFF /* tempo-ios-bl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tempo-ios-bl-dummy.m"; sourceTree = "<group>"; };
+		C8A0FE77E9371406576F2830F4647694 /* MIT-LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "MIT-LICENSE.txt"; path = "tempo-ios-bl/MIT-LICENSE.txt"; sourceTree = "<group>"; };
+		D6780F51F6B7F5600404DF07FB4E6E15 /* tempo-ios-bl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.release.xcconfig"; sourceTree = "<group>"; };
 		E1CF8EA4A704D2E10D70EEDFCB8F6767 /* tempo-ios-bl */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "tempo-ios-bl"; path = tempo_ios_bl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF94023F6C200C205113685453D7BB6 /* BridgeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BridgeUtils.swift; path = "tempo-ios-bl/BridgeUtils.swift"; sourceTree = "<group>"; };
-		EF42FCA8DD14F3B3AD321A41190DD2A5 /* CountryCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CountryCode.swift; path = "tempo-ios-bl/CountryCode.swift"; sourceTree = "<group>"; };
-		FB118FF478122F5CDD29F3CA7ECE3E23 /* UnityBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnityBridge.swift; path = "tempo-ios-bl/UnityBridge.swift"; sourceTree = "<group>"; };
+		E2FF4D6C969DA82F429E68DA46412DA6 /* BridgeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BridgeUtils.swift; path = "tempo-ios-bl/BridgeUtils.swift"; sourceTree = "<group>"; };
+		F6400FACE2D4E56DF58B37C794A482FD /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = "tempo-ios-bl/Profile.swift"; sourceTree = "<group>"; };
+		FF81C88A74EDC25DB5C06FDC61D68735 /* tempo-ios-bl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "tempo-ios-bl.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,36 +104,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AA3E0DDD6811E363429C5708B521002 /* tempo-ios-bl */ = {
+		30A9C75BBA6ABB17C64219E630432A36 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A25D230987C50ED9BC724C3E827BEDB /* BridgeRef.swift */,
-				EBF94023F6C200C205113685453D7BB6 /* BridgeUtils.swift */,
-				EF42FCA8DD14F3B3AD321A41190DD2A5 /* CountryCode.swift */,
-				1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */,
-				FB118FF478122F5CDD29F3CA7ECE3E23 /* UnityBridge.swift */,
-				19B9E25A5916BE40A2C0C2F4E7CBB7CF /* UnityBridgeController.swift */,
-				97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */,
-				60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */,
-				8B1B421E1259FC0202D94015F50FB9BE /* tempo_ios2unity.h */,
-				F498AD502A7DC6C5C501F3CE6317DC41 /* Pod */,
-				3ED2244A596A45ED9B2039A12B52AEA0 /* Support Files */,
-			);
-			name = "tempo-ios-bl";
-			path = ..;
-			sourceTree = "<group>";
-		};
-		3ED2244A596A45ED9B2039A12B52AEA0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6B7A89F9BB4553BB8BD1401E52549B7 /* ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist */,
-				AE9C4C2A04DD23EF914B53DF21D2D433 /* tempo-ios-bl.modulemap */,
-				9CDF0F65D578478833616A153BDFF1C1 /* tempo-ios-bl-dummy.m */,
-				5E2C66C5B4F96C9D2F7C8E9B472D33CB /* tempo-ios-bl-Info.plist */,
-				DE005E9D3B74D3F6E44E0CF06AFAA843 /* tempo-ios-bl-prefix.pch */,
-				20CECD7AE64B6EF83F410FAB55C3AA61 /* tempo-ios-bl-umbrella.h */,
-				23E13CFADEBCD59635C4F0B661742073 /* tempo-ios-bl.debug.xcconfig */,
-				9312A0489B95091A3173DDDFB461E8D3 /* tempo-ios-bl.release.xcconfig */,
+				36C7EB213784F8CF103BF85806F8AC56 /* ResourceBundle-tempo-ios-bl-tempo-ios-bl-Info.plist */,
+				FF81C88A74EDC25DB5C06FDC61D68735 /* tempo-ios-bl.modulemap */,
+				C6CB48C24CB2F7E22A77DA19AB977FFF /* tempo-ios-bl-dummy.m */,
+				8453EF8BB32212DF5B180F30E3235101 /* tempo-ios-bl-Info.plist */,
+				81EDE9BF1C4CB2C9EB791E9DC743D8B5 /* tempo-ios-bl-prefix.pch */,
+				3285CA9EB28DE8E70F2529B34BBBE778 /* tempo-ios-bl-umbrella.h */,
+				7280DBB4C6091653C065B6ABD26CE69D /* tempo-ios-bl.debug.xcconfig */,
+				D6780F51F6B7F5600404DF07FB4E6E15 /* tempo-ios-bl.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/tempo-ios-bl";
@@ -155,6 +136,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		76C909B39079330EC74CF154292E68D6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				65EB788EF955ED149FB018D3E8FC9681 /* tempo-ios-bl.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		79AADFBA9EFE47B44D772ED198ED6031 /* Pods-TestUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +161,25 @@
 			path = "Target Support Files/Pods-TestUI";
 			sourceTree = "<group>";
 		};
+		905908F5A535956EE7882BB443C5657C /* tempo-ios-bl */ = {
+			isa = PBXGroup;
+			children = (
+				AF7C3CD9AFBFD8737E74552CF9267AEC /* BridgeRef.swift */,
+				E2FF4D6C969DA82F429E68DA46412DA6 /* BridgeUtils.swift */,
+				9B33D1796E64BA9412ED169C28FDB400 /* CountryCode.swift */,
+				C8A0FE77E9371406576F2830F4647694 /* MIT-LICENSE.txt */,
+				54B25BE3AE1B263F8EE85ADED83357E8 /* PrivacyInfo.xcprivacy */,
+				F6400FACE2D4E56DF58B37C794A482FD /* Profile.swift */,
+				AD48355B1AD7D692402CDDDB70BCB820 /* tempo_ios2unity.h */,
+				07C01F0DF94646E648F8CD21E8B82B6E /* UnityBridge.swift */,
+				AD01358FBC5D7D529BF39CFE35D65050 /* UnityBridgeController.swift */,
+				76C909B39079330EC74CF154292E68D6 /* Pod */,
+				30A9C75BBA6ABB17C64219E630432A36 /* Support Files */,
+			);
+			name = "tempo-ios-bl";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		B4A47F330859622504D2047807E795CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +193,7 @@
 		C01FC1A1B9E2A1BB9A2C7ECC5FAD70C2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2AA3E0DDD6811E363429C5708B521002 /* tempo-ios-bl */,
+				905908F5A535956EE7882BB443C5657C /* tempo-ios-bl */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -207,14 +215,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F498AD502A7DC6C5C501F3CE6317DC41 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2AC0409E19528289DF3EB6D62792D578 /* tempo-ios-bl.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +245,7 @@
 			buildConfigurationList = 622BBF6603858B165757DF7606BF455F /* Build configuration list for PBXNativeTarget "tempo-ios-bl" */;
 			buildPhases = (
 				BCC665D233BBEF32EE32ACAA048CF0A0 /* Headers */,
-				225F3377E057F0392A68BCBB52FF6754 /* Sources */,
+				58DECE53FB97384F23CC28BCFF5A0CD0 /* Sources */,
 				9A74D1D67E328F9A9A8D396732938E52 /* Frameworks */,
 				4EDA5684B050EA21570902474ECCD021 /* Resources */,
 			);
@@ -351,18 +351,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		225F3377E057F0392A68BCBB52FF6754 /* Sources */ = {
+		58DECE53FB97384F23CC28BCFF5A0CD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44737D9CB465EAD85C598994B6510219 /* BridgeRef.swift in Sources */,
-				FCA52644E5C4798AD861487152FCF22B /* BridgeUtils.swift in Sources */,
-				BE84FB3CB1D174B62547FD60017ADF81 /* CountryCode.swift in Sources */,
-				B960EA4C5918F7296563BB2A14DB5BAC /* LICENCE.txt in Sources */,
-				B5533634107CB4286E69A0404931DAF4 /* Profile.swift in Sources */,
-				8A58F22E178EEF9BA0FC456CB36186F7 /* tempo-ios-bl-dummy.m in Sources */,
-				D6F1EC65E7FB9EEC348C95EA0E15E3C3 /* UnityBridge.swift in Sources */,
-				8B9BA93AC4319B1B0FFA58FBF474CBE0 /* UnityBridgeController.swift in Sources */,
+				0DA2B26C1007B54C21F923F297112C7E /* BridgeRef.swift in Sources */,
+				E483918AD5CE3B73267D3AF4BFFC5469 /* BridgeUtils.swift in Sources */,
+				5BCA5F943849FE5456FE19E3AB235ED0 /* CountryCode.swift in Sources */,
+				4C1450F4C17805A32FD416D9DED8397E /* MIT-LICENSE.txt in Sources */,
+				3A1BC519A5C2EAC6F8FECDE24439C75E /* Profile.swift in Sources */,
+				8868ED2DB447501113DFB91F8C8F657B /* tempo-ios-bl-dummy.m in Sources */,
+				59169EDC8BF757F1C640FA150832C7FF /* UnityBridge.swift in Sources */,
+				6F40A2B069D4559D81BB58B41ACA1A2C /* UnityBridgeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 		};
 		70E22AFDBACD65270C0C57C66CCE4DDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E13CFADEBCD59635C4F0B661742073 /* tempo-ios-bl.debug.xcconfig */;
+			baseConfigurationReference = 7280DBB4C6091653C065B6ABD26CE69D /* tempo-ios-bl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-bl";
@@ -517,7 +517,7 @@
 		};
 		9C1477162745DBDD0C96198060C1C79D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9312A0489B95091A3173DDDFB461E8D3 /* tempo-ios-bl.release.xcconfig */;
+			baseConfigurationReference = D6780F51F6B7F5600404DF07FB4E6E15 /* tempo-ios-bl.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -619,7 +619,7 @@
 		};
 		B964575CAE2FCC3B52DAF6437460DB5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9312A0489B95091A3173DDDFB461E8D3 /* tempo-ios-bl.release.xcconfig */;
+			baseConfigurationReference = D6780F51F6B7F5600404DF07FB4E6E15 /* tempo-ios-bl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/tempo-ios-bl";
@@ -636,7 +636,7 @@
 		};
 		BE51A749EC0AD2AE7A2A4B09C710822A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E13CFADEBCD59635C4F0B661742073 /* tempo-ios-bl.debug.xcconfig */;
+			baseConfigurationReference = 7280DBB4C6091653C065B6ABD26CE69D /* tempo-ios-bl.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

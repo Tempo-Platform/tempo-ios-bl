@@ -1,0 +1,6 @@
+framework module tempo_ios_bl {
+  umbrella header "tempo-ios-bl-umbrella.h"
+
+  export *
+  module * { export * }
+}

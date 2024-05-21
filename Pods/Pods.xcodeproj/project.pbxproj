@@ -49,13 +49,13 @@
 		1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Profile.swift; path = "tempo-ios-bl/Profile.swift"; sourceTree = "<group>"; };
 		20CECD7AE64B6EF83F410FAB55C3AA61 /* tempo-ios-bl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tempo-ios-bl-umbrella.h"; sourceTree = "<group>"; };
 		23E13CFADEBCD59635C4F0B661742073 /* tempo-ios-bl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.debug.xcconfig"; sourceTree = "<group>"; };
-		2AC0409E19528289DF3EB6D62792D578 /* tempo-ios-bl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "tempo-ios-bl.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AC0409E19528289DF3EB6D62792D578 /* tempo-ios-bl.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "tempo-ios-bl.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DB77D2C1E9B9D2F07B410F826B6F0EE /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
 		2F1B9FFB69FE10A4A19D4DEC55052E1D /* Pods-TestUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestUI-frameworks.sh"; sourceTree = "<group>"; };
 		3C856ECA35EE57B53F70C7166D1CF473 /* Pods-TestUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestUI-dummy.m"; sourceTree = "<group>"; };
 		3C93187A670DA2D891A012F856FB88E7 /* Pods-TestUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestUI.modulemap"; sourceTree = "<group>"; };
 		5E2C66C5B4F96C9D2F7C8E9B472D33CB /* tempo-ios-bl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "tempo-ios-bl-Info.plist"; sourceTree = "<group>"; };
-		60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "tempo-ios-bl/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "tempo-ios-bl/Resources/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B973220C4053B61301430C70A2DD04 /* Pods-TestUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		742DF8C9516869071B2A5C9865AAA4E7 /* Pods-TestUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUI-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -63,9 +63,9 @@
 		8B1B421E1259FC0202D94015F50FB9BE /* tempo_ios2unity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tempo_ios2unity.h; path = "tempo-ios-bl/tempo_ios2unity.h"; sourceTree = "<group>"; };
 		9312A0489B95091A3173DDDFB461E8D3 /* tempo-ios-bl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "tempo-ios-bl.release.xcconfig"; sourceTree = "<group>"; };
 		95C7622F85596CB9351758AEF624C648 /* Pods-TestUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestUI"; path = Pods_TestUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENCE.txt; path = "tempo-ios-bl/LICENCE.txt"; sourceTree = "<group>"; };
+		97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENCE.txt; path = "tempo-ios-bl/LICENCE.txt"; sourceTree = "<group>"; };
 		9CDF0F65D578478833616A153BDFF1C1 /* tempo-ios-bl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tempo-ios-bl-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2598DD6C48013CBF8A881678B0C0784 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
 		AE9C4C2A04DD23EF914B53DF21D2D433 /* tempo-ios-bl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "tempo-ios-bl.modulemap"; sourceTree = "<group>"; };
 		AF03BF5DE111335FE911E2119259E55C /* tempo-ios-bl-tempo-ios-bl */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "tempo-ios-bl-tempo-ios-bl"; path = "tempo-ios-bl.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,12 +110,12 @@
 				1A25D230987C50ED9BC724C3E827BEDB /* BridgeRef.swift */,
 				EBF94023F6C200C205113685453D7BB6 /* BridgeUtils.swift */,
 				EF42FCA8DD14F3B3AD321A41190DD2A5 /* CountryCode.swift */,
-				1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */,
-				FB118FF478122F5CDD29F3CA7ECE3E23 /* UnityBridge.swift */,
-				19B9E25A5916BE40A2C0C2F4E7CBB7CF /* UnityBridgeController.swift */,
 				97EFFCC19C3BDB11CA54E8CD49E3B9F5 /* LICENCE.txt */,
 				60D2593B5D16C8F6963DDE894BC4105C /* PrivacyInfo.xcprivacy */,
+				1E9DD0C0A3AA96FC14EA5151410992D5 /* Profile.swift */,
 				8B1B421E1259FC0202D94015F50FB9BE /* tempo_ios2unity.h */,
+				FB118FF478122F5CDD29F3CA7ECE3E23 /* UnityBridge.swift */,
+				19B9E25A5916BE40A2C0C2F4E7CBB7CF /* UnityBridgeController.swift */,
 				F498AD502A7DC6C5C501F3CE6317DC41 /* Pod */,
 				3ED2244A596A45ED9B2039A12B52AEA0 /* Support Files */,
 			);

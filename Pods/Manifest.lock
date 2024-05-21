@@ -1,5 +1,5 @@
 PODS:
-  - tempo-ios-bl (0.0.1-rc.0)
+  - tempo-ios-bl (0.0.1-rc.1)
 
 DEPENDENCIES:
   - tempo-ios-bl (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  tempo-ios-bl: 2361a65cab53a8c58ec13588305e9af97ee96332
+  tempo-ios-bl: d062661655fec698401b1ab2947df32bf499ad77
 
 PODFILE CHECKSUM: 21b3244c7428ac5ca535bc7145ca801177eb24aa
 

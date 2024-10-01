@@ -7,7 +7,7 @@ import CoreLocation
  */
 public class BridgeUtils {
     
-    public static let VERSION = "1.0.0-rc.1"
+    public static let VERSION = "1.0.1-rc.0"
     
     /// Log for URGENT output with 🔴 marker - not to be used in production
     public static func Shout(msg: String) {

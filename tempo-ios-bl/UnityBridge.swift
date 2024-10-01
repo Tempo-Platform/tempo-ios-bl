@@ -49,6 +49,16 @@ public func set_OnAdIdConfirmedDelegate(delegate: @convention(c) @escaping (Unsa
     bridgeController.onAdIdConfirmed = delegate
 }
 
+@_cdecl("set_OnVersionNameConfirmedDelegate")
+public func set_OnVersionNameConfirmedDelegate(delegate: @convention(c) @escaping (UnsafePointer<CChar>?) -> Void) {
+    bridgeController.onVersionNameConfirmed = delegate
+}
+
+@_cdecl("set_OnVersionCodeConfirmedDelegate")
+public func set_OnVersionCodeConfirmedDelegate(delegate: @convention(c) @escaping (UnsafePointer<CChar>?) -> Void) {
+    bridgeController.onVersionCodeConfirmed = delegate
+}
+
 @_cdecl("set_OnLocDataSuccessDelegate")
 public func set_OnLocDataSuccessDelegate(delegate: @convention(c) @escaping (UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?) -> Void) {
     bridgeController.onLocDataSuccess = delegate

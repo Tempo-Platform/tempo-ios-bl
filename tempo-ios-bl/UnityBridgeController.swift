@@ -13,6 +13,8 @@ public class UnityBridgeController: NSObject
     var onLocDataFailure: ((UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?,
                             UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?,
                             UnsafePointer<CChar>?, UnsafePointer<CChar>?, UnsafePointer<CChar>?) -> Void)?
+    var onVersionCodeConfirmed: ((UnsafePointer<CChar>?) -> Void)?
+    var onVersionNameConfirmed: ((UnsafePointer<CChar>?) -> Void)?
     var onSomething: ((UnsafePointer<CChar>?, Int) -> Void)?
     
     // Bridge properties
@@ -36,6 +38,7 @@ public class UnityBridgeController: NSObject
         print("💥 UnityBridgeController.createProfile()")
         profile = Profile(bridgeController: bridge!)
         getAdId()
+        getVersionData()
         profile?.doTaskAfterLocAuthUpdate(completion: nil)
     }
     
@@ -44,6 +47,45 @@ public class UnityBridgeController: NSObject
         let adId = profile?.getAdId() ?? BridgeRef.ZERO_AD_ID
         print("💥 UnityBridgeController.getAdId() -> \(adId)")
         onAdIdConfirmed?(adId)
+    }
+    
+    /// Returns Ad ID, if setup on user's device
+    func getVersionData() {
+        print("🧨 getVersionData triggered!")
+        
+        if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String,
+           let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+            print("🌟 Version: \(version), Build: \(build)")
+            onVersionNameConfirmed?(version)
+            onVersionCodeConfirmed?(build)
+        }
+        
+        if let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String {
+            print("🌀 App Version: \(appVersion)")
+            onVersionNameConfirmed?(appVersion)
+        }
+        
+        if let buildVersion = Bundle.main.object(forInfoDictionaryKey: kCFBundleVersionKey as String) as? String {
+            print("🍀 Build Version: \(buildVersion)")
+            onVersionCodeConfirmed?(buildVersion)
+        }
+        
+        /*
+         
+         CFBundleShortVersionString:
+
+         This is the Marketing Version key.
+         Represents the version number seen by users (e.g., 1.2.0).
+         This key is meant to follow the semantic versioning format (Major.Minor.Patch).
+         Official Apple Reference: CFBundleShortVersionString.
+         CFBundleVersion:
+
+         This is the Build Version key.
+         Represents the internal build number (e.g., 123).
+         This key can be any string but is often a sequential build number.
+         Official Apple Reference: CFBundleVersion.
+         
+         */
     }
     
     /// Returns 2-digit ISO country code from device settings
